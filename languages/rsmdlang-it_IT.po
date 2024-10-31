@@ -1,0 +1,2180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Italiano 1.0\n"
+"POT-Creation-Date: 2021-06-13 18:28+0200\n"
+"PO-Revision-Date: 2021-06-13 18:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: Christian Gatti <sgarlarud@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/actions/rsmd-content-restriction.php:15
+msgid "Restricted Content"
+msgstr "Contenuto Riservato"
+
+#: admin/actions/rsmd-content-restriction.php:64
+msgid "Is this content restricted"
+msgstr "Questo contenuto è riservato"
+
+#: admin/actions/rsmd-content-restriction.php:72
+msgid "Which role is allowed to view it"
+msgstr "Quale ruolo può visualizzarlo"
+
+#: admin/actions/rsmd-content-restriction.php:80
+#: admin/actions/rsmd-content-restriction.php:88
+#: admin/actions/rsmd-media-restriction.php:136
+msgid "All"
+msgstr "Tutti"
+
+#: admin/actions/rsmd-media-restriction.php:73
+msgid "This element is currently included into"
+msgstr "Questo elemento è attualmente incluso in"
+
+#: admin/actions/rsmd-media-restriction.php:112
+msgid "Is restricted"
+msgstr "È riservato"
+
+#: admin/actions/rsmd-media-restriction.php:116
+msgid "Allow download from the URL below only to logged in users"
+msgstr "Consenti download dall'URL seguente solo agli utenti connessi"
+
+#: admin/actions/rsmd-media-restriction.php:124
+msgid "URL for downloading"
+msgstr "URL per il download"
+
+#: admin/actions/rsmd-media-restriction.php:127
+msgid "Use this URL to let logged in users download this media"
+msgstr "Utilizza questo URL per consentire agli utenti connessi di scaricare"
+
+#: admin/actions/rsmd-media-restriction.php:132
+msgid "Allowed Role"
+msgstr "Ruolo consentito"
+
+#: admin/actions/rsmd-media-restriction.php:139
+msgid "Allow download to this role only"
+msgstr "Consenti il download solo a questo ruolo"
+
+#: admin/rsmd-options-content.php:7
+msgid "Redirect if not logged in"
+msgstr "Reindirizza se non connesso"
+
+#: admin/rsmd-options-content.php:15
+msgid ""
+"Define where to redirect not logged in users trying to access restricted "
+"contents"
+msgstr ""
+"Stabilisci dove reindirizzare gli utenti non connessi che tentano di "
+"accedere a contenuti con restrizioni"
+
+#: admin/rsmd-options-content.php:27
+msgid "Redirect not logged in users to this page"
+msgstr "Reindirizza a questa pagina gli utenti non connessi"
+
+#: admin/rsmd-options-content.php:55
+msgid "Homepage"
+msgstr "Homepage"
+
+#: admin/rsmd-options-content.php:63
+msgid "Select a page from the list above"
+msgstr "Selezionare una pagina dall'elenco qui sopra"
+
+#: admin/rsmd-options-content.php:74 admin/rsmd-options-content.php:136
+msgid "It only applies to the current WPML language"
+msgstr "Impostazione valida per la sola lingua WPML corrente"
+
+#: admin/rsmd-options-content.php:90
+msgid ""
+"Redirect not logged in users to the above page also if an archive page "
+"contains a restricted content"
+msgstr ""
+"Reindirizza gli utenti non connessi alla pagina qui sopra anche quando una "
+"pagina di archiviazione contiene un contenuto protetto"
+
+#: admin/rsmd-options-content.php:125
+msgid "Prevent from browsing archive page containing restricted elements"
+msgstr ""
+"Impedisci l'esplorazione della pagina di archivio contenente elementi con "
+"restrizioni"
+
+#: admin/rsmd-options-save.php:29
+msgid ""
+"One or more values entered were not accepted, so they were set to a default "
+"value. Please check it out"
+msgstr ""
+"Uno o più valori immessi non sono stati accettati, pertanto sono stati "
+"impostati su un valore predefinito. Si prega di controllare"
+
+#: admin/rsmd-options-save.php:44
+msgid "The redirect page that you have selected is now no more restricted"
+msgstr "La pagina di reindirizzamento selezionata non è più riservata"
+
+#: admin/rsmd-options-save.php:138
+msgid "Settings saved"
+msgstr "Impostazioni salvate"
+
+#: admin/rsmd-options.php:41
+msgid "Setup"
+msgstr "Impostazioni"
+
+#: admin/rsmd-options.php:58
+msgid "Media currently subject to restriction"
+msgstr "Media attualmente soggetti a restrizioni"
+
+#: admin/rsmd-options.php:85
+msgid "No restricted media found"
+msgstr "Nessun supporto con restrizioni trovato"
+
+#: admin/rsmd-options.php:91
+msgid "Contents currently subject to restriction"
+msgstr "Contenuti attualmente soggetti a restrizioni"
+
+#: admin/rsmd-options.php:119
+msgid "No restricted contents found"
+msgstr "Nessun contenuto riservato trovato"
+
+#: restricted-media.php:109
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: restricted-media.php:140
+msgid ""
+"A brand new version or \"Restricted Media, Pages and Posts\" is out, please "
+"download it now, since this plugin will be no more maintained. Please "
+"download and install it from the <a href=\"/wp-admin/plugin-install.php?"
+"s=nutsforpress&tab=search&type=term\" title=\"NutsForPress\" alt"
+"\"NutsForPress\">WordPress repository</a>"
+msgstr ""
+"Una nuova versione o \"Restricted Media, Pages and Posts\" è disponibile, "
+"per favore scaricala ora, dal momento che questo plugin non sarà più "
+"mantenuto. Scaricala e installala dal <a href=\"/wp-admin/plugin-install.php?"
+"s=nutsforpress&tab=search&type=term\" title=\"NutsForPress\" alt"
+"\"nutsforpress\"=\"\">repository WordPress</a>"
+
+#: restricted-media.php:153
+msgid "Thanks for downloading \"NutsForPress Restricted Contents\""
+msgstr "Grazie per aver scaricato \"NutsForPress Restricted Contents\""
+
+#: restricted-media.php:155
+msgid ""
+"Please, do the setup of \"NutsForPress Restricted Contents\", then "
+"deactivate and delete \"Restricted Media, Pages and Posts\""
+msgstr ""
+"Per cortesia, esegui la configurazione di \"NutsForPress Restricted Contents"
+"\", poi disattiva e elimina \"Restricted Media, Pages and Posts\""
+
+#~ msgid "Bring back to the origin page"
+#~ msgstr "Torna alla pagina di origine"
+
+#~ msgid "Restricted Media Setup"
+#~ msgstr "Configurazione Restricted Media"
+
+#~ msgid "Be careful"
+#~ msgstr "Fai attenzione"
+
+#~ msgid "you have only"
+#~ msgstr "hai solo"
+
+#~ msgid "attempts left"
+#~ msgstr "tentativi a disposizione"
+
+#~ msgid "Logged in, please wait"
+#~ msgstr "Autenticazione in corso, attendi per favore"
+
+#~ msgid "activated"
+#~ msgstr "attivato"
+
+#~ msgid "These 155 chars represent the content of your meta description tag"
+#~ msgstr ""
+#~ "Questi 155 caratteri rappresentano il contenuto del tuo tag meta "
+#~ "description"
+
+#~ msgid "Meta Description"
+#~ msgstr "Meta Descrizione"
+
+#~ msgid "Role changed in"
+#~ msgstr "Ruolo modificato in"
+
+#~ msgid "A user, with user login"
+#~ msgstr "Un visitatore, con nome utente"
+
+#~ msgid "has now"
+#~ msgstr "ha ora"
+
+#~ msgid "role"
+#~ msgstr "ruolo"
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#~ msgid "User deleted in"
+#~ msgstr "Utente cancellato in"
+
+#~ msgid "was just deleted from"
+#~ msgstr "è stato appena cancellato da"
+
+#~ msgid "Successful login to"
+#~ msgstr "Accesso riuscito a"
+
+#~ msgid "A visitor, with user login"
+#~ msgstr "Un visitatore, con nome utente"
+
+#~ msgid "logged in successfully to"
+#~ msgstr "ha effettuato l'accesso a"
+
+#~ msgid "Optimize"
+#~ msgstr "Ottimizza"
+
+#~ msgid "Enhance"
+#~ msgstr "Migliora"
+
+#~ msgid "Secure"
+#~ msgstr "Proteggi"
+
+#~ msgid "Block Editor"
+#~ msgstr "Editor a Blocchi"
+
+#~ msgid "Deactivate block editor and switch back to classic editor"
+#~ msgstr "Disattiva l'editor a blocchi e torna all'editor classico"
+
+#~ msgid "Deactivate block editor"
+#~ msgstr "Disattiva l'editor a blocchi"
+
+#~ msgid ""
+#~ "If switched on, classic editor will be displayed instead of block editor "
+#~ "or Gutenberg"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, l'editor classico verrà visualizzato anziché "
+#~ "l'editor a blocchi o Gutenberg"
+
+#~ msgid "Dashboard Notices"
+#~ msgstr "Avvisi dashboard"
+
+#~ msgid "Prevent notices to be displayed into your admin dashboard"
+#~ msgstr ""
+#~ "Impedisci la visualizzazione degli avvisi nel dashboard di amministrazione"
+
+#~ msgid "Hide dashboard notices"
+#~ msgstr "Nascondi gli avvisi nella dashboard"
+
+#~ msgid ""
+#~ "If switched on, no notice will be shown anymore (even important notices "
+#~ "will be hidden)"
+#~ msgstr ""
+#~ "Se attivata, non verrà più visualizzato alcun avviso (anche gli avvisi "
+#~ "importanti saranno nascosti)"
+
+#~ msgid "Splash Page"
+#~ msgstr "Splash Page"
+
+#~ msgid ""
+#~ "Hide your website to not logged users, display a full screen image or the "
+#~ "content of a page (with no header and footer) and let users to "
+#~ "authenticate through an overlaid ajax login form"
+#~ msgstr ""
+#~ "Nascondi il tuo sito Web agli utenti non autenticati, visualizza "
+#~ "un'immagine a schermo intero o il contenuto di una pagina (senza "
+#~ "intestazione e piè di pagina) e consenti agli utenti di autenticarsi "
+#~ "tramite un form di accesso ajax in sovraimpressione"
+
+#~ msgid "Enable Splash Page"
+#~ msgstr "Attiva la Splash Page"
+
+#~ msgid ""
+#~ "If switched on, a splash page will be displayed instead of your website "
+#~ "for maintenance purpose or just to hide your site to not logged users"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, una splash page verrà visualizzata al posto del "
+#~ "tuo sito web in caso di manutenzione o solamente per nascondere il tuo "
+#~ "sito a visitatori non autenticati"
+
+#~ msgid "Choose what to display"
+#~ msgstr "Seleziona cosa mostrare"
+
+#~ msgid "a full screen image (cover)"
+#~ msgstr "un'immagine a schermo intero (copertina)"
+
+#~ msgid "the content of a page (with no header and footer)"
+#~ msgstr "il contenuto di una pagina (senza intestazione e piè di pagina)"
+
+#~ msgid "Choose an image"
+#~ msgstr "Seleziona un'immagine"
+
+#~ msgid ""
+#~ "Image not found: press Save Settings to empty or choose another image"
+#~ msgstr ""
+#~ "Immagine non trovata: premi Salva impostazioni per svuotare o scegli "
+#~ "un'altra immagine"
+
+#~ msgid "Choose form media library"
+#~ msgstr "Seleziona un'immagine dalla galleria"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid ""
+#~ "Select an image from the media gallery, leave blank for displaying an "
+#~ "empty page with the login form only"
+#~ msgstr ""
+#~ "Seleziona un'immagine dalla raccolta multimediale, lascia vuoto per "
+#~ "visualizzare una pagina bianca con solo il modulo di accesso"
+
+#~ msgid "Choose a page"
+#~ msgstr "Scegli una pagina"
+
+#~ msgid ""
+#~ "Select the page whose content, with no header or footer, will be shown "
+#~ "with an overlaid ajax login form"
+#~ msgstr ""
+#~ "Selezionare la pagina il cui contenuto, senza intestazione o piè di "
+#~ "pagina, verrà visualizzato con un modulo di accesso ajax sovrapposto"
+
+#~ msgid "use a draft page to prevent to be browsed by logged users"
+#~ msgstr ""
+#~ "utilizza una bozza di pagina per impedire che venga visualizzata dagli "
+#~ "utenti registrati"
+
+#~ msgid "Hide WordPress login page"
+#~ msgstr "Nascondi la pagina di accesso di WordPress"
+
+#~ msgid ""
+#~ "If switched on, splash page will be also displayed intead of WordPress "
+#~ "login page, so that users can authenticate only through the overlaid ajax "
+#~ "login form"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, la splash page verrà visualizzata anche al posto "
+#~ "della pagina di autenticazione di WordPress, in modo tale che gli utenti "
+#~ "possano effettuare l'accesso unicamente tramite il form di accesso ajax "
+#~ "in sovraimpressione"
+
+#~ msgid "Custom 404 Page"
+#~ msgstr "Pagina 404 Personalizzata"
+
+#~ msgid ""
+#~ "Redirect visitors to a custom 404 page, instead of displaying your theme "
+#~ "404 default page"
+#~ msgstr ""
+#~ "Reindirizza i visitatori a una pagina 404 personalizzata, invece di "
+#~ "visualizzare la pagina 404 predefinita del tuo tema"
+
+#~ msgid "Enable custom 404"
+#~ msgstr "Abilita la pagina 404 personalizzata"
+
+#~ msgid ""
+#~ "If switched on, visitors will be redirected to the below selected custom "
+#~ "404 page, instead of showing them the default 404 page provided by your "
+#~ "theme"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, i visitatori verranno reindirizzati alla pagina "
+#~ "404 personalizzata selezionata di seguito, invece di mostrare loro la "
+#~ "pagina predefinita 404 fornita dal tema"
+
+#~ msgid "Image Resolution and JPEG Compression"
+#~ msgstr "Risoluzione immagini e compressione JPEG"
+
+#~ msgid ""
+#~ "Set the image resolution and the JPEG quality compression in order to "
+#~ "resize each image you will upload and to recompress JPEG images, so that "
+#~ "you do not need to worry of image dimensions any more"
+#~ msgstr ""
+#~ "Imposta la risoluzione dell'immagine e la compressione della qualità JPEG "
+#~ "per ridimensionare ogni immagine che verrà caricata e ricomprimere le "
+#~ "immagini JPEG, in modo da non doversi più preoccupare delle dimensioni "
+#~ "dell'immagine"
+
+#~ msgid "Choose resolution"
+#~ msgstr "Scegli risoluzione"
+
+#~ msgid "The defined resolution will be used to resize on upload every image"
+#~ msgstr ""
+#~ "La risoluzione definita verrà utilizzata per ridimensionare al "
+#~ "caricamento ogni immagine"
+
+#~ msgid "Skip GIF images from resizing"
+#~ msgstr "Escludi le immagini GIF dal ridimensionamento"
+
+#~ msgid ""
+#~ "If switched on, all GIF images will be skipped from resizing, to prevent "
+#~ "animated gifs from losing animation"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, tutte le immagini GIF verranno escluse dal "
+#~ "ridimensionamento, per evitare che le gif animate perdano l'animazione"
+
+#~ msgid "Choose JPEG compression"
+#~ msgstr "Scegliere la compressione JPEG"
+
+#~ msgid ""
+#~ "The defined quality will be used to compress on upload every JPEG image "
+#~ "and related thumbnails"
+#~ msgstr ""
+#~ "La qualità definita verrà utilizzata per comprimere al caricamento ogni "
+#~ "immagine JPEG e le relative miniature"
+
+#~ msgid "Bulk rebuild and compress"
+#~ msgstr "Ricostruzione e compressione completa"
+
+#~ msgid "Images rebuild in progress"
+#~ msgstr "Ricostruzione immagini in corso"
+
+#~ msgid "Please wait"
+#~ msgstr "Attendere prego"
+
+#~ msgid "Images rebuild completed"
+#~ msgstr "Ricostruzione immagini completata"
+
+#~ msgid "Good News, no thumbnail needs to be rebuilt"
+#~ msgstr "Buone notizie, nessuna miniatura deve essere ricostruita"
+
+#~ msgid ""
+#~ "If switched on, when you will save settings, all your images will be "
+#~ "resized and all your JPEG images and thumbnails will be recompressed in "
+#~ "background, using the above settings"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, quando si salvano le impostazioni, tutte le "
+#~ "immagini verranno ridimensionate e tutte le immagini JPEG e le miniature "
+#~ "verranno ricompresse in background, utilizzando le impostazioni di cui "
+#~ "sopra"
+
+#~ msgid "Send mail through SMTP"
+#~ msgstr "Invia posta tramite SMTP"
+
+#~ msgid ""
+#~ "Use your SMTP to send email messages from your website, to prevent they "
+#~ "can be forwarded to spam or junk mail"
+#~ msgstr ""
+#~ "Utilizza il tuo SMTP per inviare messaggi di posta elettronica dal tuo "
+#~ "sito Web, per evitare che possano essere inoltrati a posta indesiderata o "
+#~ "indesiderata"
+
+#~ msgid "Enable SMTP server"
+#~ msgstr "Abilita il server SMTP"
+
+#~ msgid ""
+#~ "If switched on, all this website email messages will use your SMTP server"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, tutti i messaggi e-mail di questo sito Web "
+#~ "utilizzeranno il server SMTP"
+
+#~ msgid "Define encryption"
+#~ msgstr "Definisci protocollo di crittografia"
+
+#~ msgid "none"
+#~ msgstr "nessuno"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "Define the encryption used by your SMTP server"
+#~ msgstr ""
+#~ "Definisci il protocollo di crittografia utilizzato dal tuo server SMTP"
+
+#~ msgid "Define port"
+#~ msgstr "Definisci la porta"
+
+#~ msgid "Define the port used by your SMTP server"
+#~ msgstr "Definisci la porta utilizzata dal server SMTP"
+
+#~ msgid "Define server address"
+#~ msgstr "Definisci l'indirizzo del server"
+
+#~ msgid "for example"
+#~ msgstr "per esempio"
+
+#~ msgid "Define the address of your SMTP server"
+#~ msgstr "Definisci l'indirizzo del server SMTP"
+
+#~ msgid "Define from address"
+#~ msgstr "Definisci l'indirizzo mittente"
+
+#~ msgid ""
+#~ "If filled out, this address will be used as sender address of all the "
+#~ "emails that will be sent by this website, overriding different settings "
+#~ "defined by other plugin"
+#~ msgstr ""
+#~ "Se compilato, questo indirizzo verrà utilizzato come indirizzo mittente "
+#~ "di tutte le e-mail che verranno inviate da questo sito web, "
+#~ "sovrascrivendo diverse impostazioni definite da altri plugin"
+
+#~ msgid "Define from name"
+#~ msgstr "Definisci il nome del mittente"
+
+#~ msgid ""
+#~ "If filled out, this name will be used as sender name of all the emails "
+#~ "that will be sent by this website, overriding different settings defined "
+#~ "by other plugin"
+#~ msgstr ""
+#~ "Se compilato, questo nome verrà utilizzato come nome del mittente di "
+#~ "tutte le e-mail che verranno inviate da questo sito web, sovrascrivendo "
+#~ "diverse impostazioni definite da altri plugin"
+
+#~ msgid "Define authentication"
+#~ msgstr "Definisci l'autenticazione"
+
+#~ msgid "Disabled"
+#~ msgstr "Disabilitato"
+
+#~ msgid "Enabled"
+#~ msgstr "Abilitato"
+
+#~ msgid "Define if your SMTP server needs authentication"
+#~ msgstr "Definisci se il server SMTP necessita dell'autenticazione"
+
+#~ msgid "Define authentication address"
+#~ msgstr "Definisci l'indirizzo di autenticazione"
+
+#~ msgid "Define the authentication address for your SMTP server"
+#~ msgstr "Definisci l'indirizzo di autenticazione per il server SMTP"
+
+#~ msgid "Define authentication password"
+#~ msgstr "Definisci la password di autenticazione"
+
+#~ msgid "password is set, fill this out only to change it"
+#~ msgstr "password inserita, compila solo per cambiarla"
+
+#~ msgid ""
+#~ "Define the authentication password for your SMTP server (password will be "
+#~ "encrypted and saved into database)"
+#~ msgstr ""
+#~ "Definisci la password di autenticazione per il server SMTP (la password "
+#~ "verrà crittografata e salvata nel database)"
+
+#~ msgid "SMTP test"
+#~ msgstr "Test SMTP"
+
+#~ msgid "SMTP test in progress"
+#~ msgstr "Test SMTP in corso"
+
+#~ msgid "SMTP test completed successfully"
+#~ msgstr "Test SMTP completato correttamente"
+
+#~ msgid "SMTP test failed, check settings"
+#~ msgstr "Test SMTP non riuscito, controllare le impostazioni"
+
+#~ msgid ""
+#~ "If switched on, when you will save settings, a test email will be sent in "
+#~ "order to check that all the settings above are correct"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, quando si salvano le impostazioni, verrà inviata "
+#~ "un'e-mail di prova per verificare che tutte le impostazioni di cui sopra "
+#~ "siano corrette"
+
+#~ msgid "SMTP test recipient"
+#~ msgstr "Destinatario del test SMTP"
+
+#~ msgid ""
+#~ "Define the recipient email address to whom the test message will be sent"
+#~ msgstr ""
+#~ "Definisci l'indirizzo di posta elettronica del destinatario a cui verrà "
+#~ "inviato il messaggio di prova"
+
+#~ msgid "Optimize, Enhance and Secure your WordPress website"
+#~ msgstr "Ottimizza, Migliora e Proteggi il tuo sito wordPress"
+
+#~ msgid "Optenhanse PRO Activation"
+#~ msgstr "Attivazione Optenhanse PRO"
+
+#~ msgid ""
+#~ "In order to use PRO features, fill in the license token provided when you "
+#~ "bought Optenhanse PRO and press \"Activate\" button"
+#~ msgstr ""
+#~ "Per utilizzare le funzioni PRO, compila il token di licenza fornito al "
+#~ "momento dell'acquisto di Optenhanse PRO e premi il pulsante \"Attiva\""
+
+#~ msgid "Optenhanse PRO license token"
+#~ msgstr "Token di licenza Optenhanse PRO"
+
+#~ msgid "Enter your token"
+#~ msgstr "Inserisci il tuo token"
+
+#~ msgid "Activate"
+#~ msgstr "Attiva"
+
+#~ msgid "Enter Optenhanse PRO token and press \"Activate\" button"
+#~ msgstr "Inserisci il token Optenhanse PRO e premi il pulsante \"Attiva\""
+
+#~ msgid "Activation in progress, please wait"
+#~ msgstr "Attivazione in corso, attendere"
+
+#~ msgid "Activation completed successfully"
+#~ msgstr "Attivazione completata"
+
+#~ msgid "Activation failed, check token"
+#~ msgstr "Attivazione non riuscita, controllare il token"
+
+#~ msgid "Deactivate"
+#~ msgstr "Disattiva"
+
+#~ msgid ""
+#~ "In order to activate Optenhanse PRO in another website, press \"Deactivate"
+#~ "\" button"
+#~ msgstr ""
+#~ "Per attivare Optenhanse PRO in un altro sito web, premere il pulsante "
+#~ "\"Disattiva\""
+
+#~ msgid "Deactivation in progress, please wait"
+#~ msgstr "Disattivazione in corso, attendi per favore"
+
+#~ msgid "Deactivation completed successfully"
+#~ msgstr "Disattivazione completata"
+
+#~ msgid "Deactivation failed, check token"
+#~ msgstr "Disattivazione non riuscita, token di controllo"
+
+#~ msgid "Description Meta Tag"
+#~ msgstr "Meta Tag Description"
+
+#~ msgid ""
+#~ "Add a description field to pages and posts editor and add a description "
+#~ "meta tag to HTML code, to take control of the excerpt that Search Engines "
+#~ "display in search results"
+#~ msgstr ""
+#~ "Aggiungi un campo di descrizione all'editor di pagine e post e aggiungi "
+#~ "un meta tag di descrizione al codice HTML, per assumere il controllo "
+#~ "dell'estratto visualizzato dai motori di ricerca nei risultati di ricerca"
+
+#~ msgid "Enable description"
+#~ msgstr "Abilita la Descrizione"
+
+#~ msgid "If switched on, Search Engines will catch the content of"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, i motori di ricerca utilizzeranno il contenuto "
+#~ "del"
+
+#~ msgid ""
+#~ "automatically added to pages and posts where the description field is "
+#~ "filled out"
+#~ msgstr ""
+#~ "automaticamente aggiunto alle pagine e ai post in cui il campo della "
+#~ "descrizione è compilato"
+
+#~ msgid "Social Media Sharing"
+#~ msgstr "Condivisione Social Media"
+
+#~ msgid ""
+#~ "When someone shares contents of your website, the correct title, "
+#~ "description and image will be shown, thanks to the proper meta tags "
+#~ "automatically added to HTML code"
+#~ msgstr ""
+#~ "Quando qualcuno condivide i contenuti del tuo sito web, verranno "
+#~ "visualizzati il titolo, la descrizione e l'immagine corretti, grazie ai "
+#~ "meta tag appropriati aggiunti automaticamente al codice HTML"
+
+#~ msgid "Facebook Opengraph"
+#~ msgstr "Facebook Opengraph"
+
+#~ msgid ""
+#~ "If switched on, Facebook Opengraph tags will be automatically added to "
+#~ "HTML code"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, i tag Opengraph di Facebook verranno aggiunti "
+#~ "automaticamente al codice HTML"
+
+#~ msgid "Twitter Card"
+#~ msgstr "Twitter Card"
+
+#~ msgid ""
+#~ "If switched on, Twitter Card tags will be automatically added to HTML code"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, i tag Twitter Card verranno aggiunti "
+#~ "automaticamente al codice HTML"
+
+#~ msgid "Unique Social Image"
+#~ msgstr "Immagine Social Univoca"
+
+#~ msgid ""
+#~ "Fill in this field, if you want to share a unique image for every post or "
+#~ "page. Leave this field empty to share the featured image related to each "
+#~ "post or page (or a random image, where featured image is not set)"
+#~ msgstr ""
+#~ "Compila questo campo, se vuoi condividere la medesima immagine per "
+#~ "ciascun post o pagina. Lascia vuoto questo campo per condividere "
+#~ "l'immagine in evidenza di ciascun post o pagina (o un'immagine casuale, "
+#~ "dove l'immagine in evidenza non è impostata)"
+
+#~ msgid "Build Sitemap"
+#~ msgstr "Crea la Sitemap"
+
+#~ msgid ""
+#~ "Build a virtual sitemap.xml file, including pages, posts and custom post "
+#~ "types set to public"
+#~ msgstr ""
+#~ "Crea un file sitemap.xml virtuale, che includa pagine, post e custom post "
+#~ "impostati per essere pubblici"
+
+#~ msgid "Enable sitemap.xml"
+#~ msgstr "Abilita sitemap.xml"
+
+#, php-format
+#~ msgid "If switched on, a virtual file %s will be created"
+#~ msgstr "Se l'opzione è attivata, verrà creato un file virtuale %s"
+
+#, php-format
+#~ msgid "and the sitemap link will be added to WordPress virtual file %s"
+#~ msgstr ""
+#~ "e il link alla sitemap verrà aggiunto al file virtuale di WordPress %s"
+
+#~ msgid "Automatically Fill Out Attachment Meta"
+#~ msgstr "Compila Automaticamente i Meta degli Allegati"
+
+#~ msgid ""
+#~ "Automatically fill out \"description\", \"caption\" and \"alt title\" "
+#~ "every time you upload a media file, preventing the lack of tag \"alt\" "
+#~ "and increasing substantially your SEO"
+#~ msgstr ""
+#~ "Compila automaticamente \"descrizione\", \"didascalia\" e \"titolo "
+#~ "alternativo\" ogni volta che carichi un file multimediale, evitando la "
+#~ "mancanza di tag \"alt\" e migliorando sostanzialmente il SEO"
+
+#~ msgid "Enable automatic meta"
+#~ msgstr "Abilita i meta automatici"
+
+#~ msgid ""
+#~ "If switched on, for new media uploaded \"description\", \"caption\" and "
+#~ "\"alt title\" will be automatically filled out with a cleaned up file "
+#~ "name content; for example, \"my_best_image.jpg\" will turn to \"my best "
+#~ "image\""
+#~ msgstr ""
+#~ "Se l'opzione è attivata, per i nuovi media caricati \"description\", "
+#~ "\"caption\" e \"alt title\" verranno compilati automaticamente con una "
+#~ "versione ripulita del nome del file; ad esempio, "
+#~ "\"la_mia_immagine_migliore.jpg\" si trasformerà in \"la mia immagine "
+#~ "migliore\""
+
+#~ msgid "Bulk meta rebuild"
+#~ msgstr "Ricostruzione completa dei metadati"
+
+#~ msgid "Meta rebuild in progress"
+#~ msgstr "Ricostruzione meta in corso"
+
+#~ msgid "Meta rebuild completed"
+#~ msgstr "Ricostruzione meta completata"
+
+#~ msgid "Good News, no meta needs to be rebuilt"
+#~ msgstr "Buone notizie, nessun meta deve essere ricostruito"
+
+#~ msgid ""
+#~ "If switched on, when you save settings, all media with empty \"description"
+#~ "\", \"caption\" and \"alt title\" will be automatically filled out in "
+#~ "background with a cleaned up file name content"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, quando si salvano le impostazioni, tutti i file "
+#~ "multimediali con \"descrizione\", \"didascalia\" e \"titolo alternativo\" "
+#~ "vuoti, verranno compilati automaticamente in background con una versione "
+#~ "ripulita del nome del file"
+
+#~ msgid "Minify HTML Code"
+#~ msgstr "Minifica codice HTML"
+
+#~ msgid "Minify HTML code on the fly"
+#~ msgstr "Minifica codice HTML al volo"
+
+#~ msgid "Enable HTML minification"
+#~ msgstr "Abilita minificazione HTML"
+
+#~ msgid ""
+#~ "If switched on, all your website HTML code will be minificated on the fly"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, tutto il codice HTML del tuo sito web verrà "
+#~ "minificato al volo"
+
+#~ msgid "Browser Cache"
+#~ msgstr "Cache del Browser"
+
+#~ msgid "Add browser cache rules via htaccess"
+#~ msgstr "Aggiungi le regole della cache del browser tramite htaccess"
+
+#~ msgid "Enable browser cache"
+#~ msgstr "Abilita la cache del browser"
+
+#~ msgid ""
+#~ "If switched on, browser cache rules will be added to htaccess (it works "
+#~ "only on Apache with mod_headers module installed)"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, le regole della cache del browser verranno "
+#~ "aggiunte a htaccess (funziona solo su Apache con il modulo mod_headers "
+#~ "installato)"
+
+#~ msgid "Media cache duration"
+#~ msgstr "Durata della cache multimediale"
+
+#~ msgid "hour"
+#~ msgstr "ora"
+
+#~ msgid "hours"
+#~ msgstr "ore"
+
+#~ msgid "day"
+#~ msgstr "giorno"
+
+#~ msgid "days"
+#~ msgstr "giorni"
+
+#~ msgid "week"
+#~ msgstr "settimana"
+
+#~ msgid "weeks"
+#~ msgstr "settimane"
+
+#~ msgid "recommended"
+#~ msgstr "consigliato"
+
+#~ msgid "month"
+#~ msgstr "mese"
+
+#~ msgid "months"
+#~ msgstr "mesi"
+
+#~ msgid "The defined duration will be used to cache media files"
+#~ msgstr ""
+#~ "La durata definita verrà utilizzata per memorizzare nella cache i file "
+#~ "multimediali"
+
+#~ msgid "Script cache duration"
+#~ msgstr "Durata della cache degli script"
+
+#~ msgid "The defined duration will be used to cache script files"
+#~ msgstr ""
+#~ "La durata definita verrà utilizzata per memorizzare nella cache i file di "
+#~ "script"
+
+#~ msgid "Code cache duration"
+#~ msgstr "Durata della cache del codice"
+
+#~ msgid "The defined duration will be used to cache code files"
+#~ msgstr ""
+#~ "La durata definita verrà utilizzata per memorizzare nella cache i file "
+#~ "del codice"
+
+#~ msgid "Login Attempts Monitor"
+#~ msgstr "Monitoraggio Tentativi di Accesso"
+
+#~ msgid ""
+#~ "Check login attempts and block failed login attempts exceeding the limits "
+#~ "defined in this section"
+#~ msgstr ""
+#~ "Controlla i tentativi di accesso e blocca i tentativi di accesso non "
+#~ "riusciti che superano i limiti definiti in questa sezione"
+
+#~ msgid "Enable login attempts monitor"
+#~ msgstr "Abilita il monitoraggio dei tentativi di accesso"
+
+#~ msgid ""
+#~ "If switched on, login attempts will be surveilled and failed login "
+#~ "attempts will be treated as defined below"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, i tentativi di accesso verranno sorvegliati e i "
+#~ "tentativi di accesso non riusciti verranno considerati come stabilito qui "
+#~ "sotto"
+
+#~ msgid "Failed login attempts conceded"
+#~ msgstr "Tentativi di accesso non riusciti concessi"
+
+#~ msgid ""
+#~ "Define how many times a user can fail login before beeing blocked from "
+#~ "trying again to login; on every successful login, failed login attempts "
+#~ "will be reset"
+#~ msgstr ""
+#~ "Definisci quante volte un utente può fallire l'autenticazione prima di "
+#~ "che gli venga impedito di tentare nuovamente l'accesso; ad ogni accesso "
+#~ "riuscito, i tentativi di accesso non riusciti verranno resettati"
+
+#~ msgid "Failed login investigation period"
+#~ msgstr "Periodo di analisi dell'accesso non riuscito"
+
+#~ msgid ""
+#~ "Define the length of the period of investigation, the time frame when the "
+#~ "conceded login attempts set above should be surveilled"
+#~ msgstr ""
+#~ "Definisci la durata del periodo di indagine, l'intervallo di tempo in cui "
+#~ "i tentativi di accesso concessi sopra devono essere sorvegliati"
+
+#~ msgid "Warn user about login attempts left"
+#~ msgstr "Avvisa l'utente dei tentativi di accesso rimasti"
+
+#~ msgid ""
+#~ "If switched on, the error displayed on failed login will be extended with "
+#~ "a warning that informs user about the login attempts left"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, l'errore visualizzato sull'accesso non riuscito "
+#~ "verrà esteso con un avviso che informa l'utente sui tentativi di accesso "
+#~ "rimasti"
+
+#~ msgid "User lock down duration"
+#~ msgstr "Durata blocco utente"
+
+#~ msgid ""
+#~ "Define how long the user have to be prevented from trying again to login, "
+#~ "after he exceeded the limits defined above"
+#~ msgstr ""
+#~ "Definisci per quanto tempo all'utente deve essere impedito di tentare "
+#~ "nuovamente di accedere, dopo aver superato i limiti definiti in precedenza"
+
+#~ msgid "Lock down message"
+#~ msgstr "Messaggio di blocco"
+
+#~ msgid "please, enter a lock down message"
+#~ msgstr "per favore, inserisci un messaggio di blocco"
+
+#~ msgid ""
+#~ "This custom login error will be shown to user locked down for having "
+#~ "exceeded the limits defined above"
+#~ msgstr ""
+#~ "Questo errore di accesso personalizzato verrà visualizzato all'utente "
+#~ "bloccato per aver superato i limiti definiti sopra"
+
+#~ msgid "Permanently ban after"
+#~ msgstr "Divieto permanente dopo"
+
+#~ msgid "users currently banned"
+#~ msgstr "utenti attualmente bannati"
+
+#~ msgid ""
+#~ "Define after how many lock downs the user have to be permanently banned "
+#~ "from trying again to login; be very carefull with this option, because "
+#~ "this restriction cannot be canceled and will be applied to every user in "
+#~ "the same Internet location (it is based on IP)"
+#~ msgstr ""
+#~ "Definisci dopo quanti blocchi all'utente deve essere permanentemente "
+#~ "vietato di provare di nuovo ad autenticarsi; fai molta attenzione con "
+#~ "questa opzione, perché questa restrizione non può essere annullata e "
+#~ "verrà applicata a tutti gli utenti nella stessa posizione Internet (si "
+#~ "basa su IP)"
+
+#~ msgid "Permanently ban message"
+#~ msgstr "Messaggio di divieto permanente"
+
+#~ msgid "please, enter a permanently ban message"
+#~ msgstr "per favore, inserisci un messaggio di divieto permanente"
+
+#~ msgid ""
+#~ "This custom ban error will be shown to user permanently banned for having "
+#~ "exceeded the limits defined above"
+#~ msgstr ""
+#~ "Questo errore personalizzato di divieto verrà mostrato all'utente "
+#~ "permanentemente bloccato per aver superato i limiti definiti sopra"
+
+#~ msgid "XML-RPC"
+#~ msgstr "XML-RPC"
+
+#~ msgid ""
+#~ "WordPress provides a default feature, based on XML-RPC protocol, that can "
+#~ "be used for brute force attacks on your site: if you do not need it, it "
+#~ "is better to disable it"
+#~ msgstr ""
+#~ "WordPress fornisce una funzione predefinita, basata sul protocollo XML-"
+#~ "RPC, che può essere utilizzata per gli attacchi di forza bruta sul tuo "
+#~ "sito: se non ne hai bisogno, è meglio disabilitarlo"
+
+#~ msgid "Disable XML-RPC"
+#~ msgstr "Disattiva XML-RPC"
+
+#~ msgid ""
+#~ "If switched on, WordPress feature, based on XML-RPC protocol, will be "
+#~ "disabled, through htaccess (server side) and through a WordPress filter"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, la funzione WordPress, basata sul protocollo XML-"
+#~ "RPC, verrà disabilitata, tramite htaccess (lato server) e tramite un "
+#~ "filtro WordPress"
+
+#~ msgid "Author and Users REST API"
+#~ msgstr "API REST Autore e utenti"
+
+#, php-format
+#~ msgid ""
+#~ "WordPress author page and WordPress %s publicly expose usernames of all "
+#~ "registered user, including site owner or administrator which is normally"
+#~ msgstr ""
+#~ "La pagina dell'autore di WordPress %s espone il nome utente di ogni "
+#~ "autore, incluso il proprietario del sito o l'amministratore che è "
+#~ "normalmente"
+
+#~ msgid "the first to be registered"
+#~ msgstr "il primo ad essere registrato"
+
+#~ msgid ""
+#~ "If you do not hide these informations, hackers will have got half of the "
+#~ "information needed to get administrative access to your website, since "
+#~ "they only have to guess a password"
+#~ msgstr ""
+#~ "Se non nascondi queste informazioni, gli hacker avranno la metà delle "
+#~ "informazioni necessarie per ottenere l'accesso amministrativo al tuo sito "
+#~ "web, dal momento che devono solo indovinare una password"
+
+#~ msgid "Disable archive author page"
+#~ msgstr "Disabilitare la pagina di archivio dell'autore"
+
+#~ msgid ""
+#~ "If switched on, every author page, including yours, will be redirected to "
+#~ "home url, through htaccess and through a WordPress safe redirection"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, ogni pagina dell'autore, compresa la tua, verrà "
+#~ "reindirizzato alla home page, attraverso htaccess e attraverso un "
+#~ "reindirizzamento sicuro WordPress"
+
+#~ msgid "Hide users in REST API"
+#~ msgstr "Nascondere gli utenti nell'API REST"
+
+#~ msgid ""
+#~ "If switched on, users REST API will be hidden and an error message will "
+#~ "be displayed instead"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, l'API REST degli utenti verrà nascosta e verrà "
+#~ "visualizzato un messaggio di errore"
+
+#~ msgid "Custom Login Errors"
+#~ msgstr "Errori di Autenticazione Personalizzati"
+
+#~ msgid ""
+#~ "Hiding WordPress default login error messages and displaying yours it is "
+#~ "an important security care"
+#~ msgstr ""
+#~ "Nascondere i messaggi di errore predefiniti di WordPress e visualizzare i "
+#~ "vostri è un'importante accorgimento di sicurezza"
+
+#~ msgid "Invalid username message"
+#~ msgstr "Messaggio per nome utente non valido"
+
+#~ msgid "default error will be shown"
+#~ msgstr "verrà visualizzato l'errore predefinito"
+
+#~ msgid ""
+#~ "If filled out, this custom login error will be shown instead of WordPress "
+#~ "default error for invalid username"
+#~ msgstr ""
+#~ "Se compilato, questo errore di autenticazione personalizzato verrà "
+#~ "visualizzato al posto dell'errore predefinito di WordPress per nome "
+#~ "utente non valido"
+
+#~ msgid "Invalid email message"
+#~ msgstr "Messaggio e-mail non valida"
+
+#~ msgid ""
+#~ "If filled out, this custom login error will be shown instead of WordPress "
+#~ "default error for invalid email"
+#~ msgstr ""
+#~ "Se compilato, questo errore di accesso personalizzato verrà visualizzato "
+#~ "al posto dell'errore predefinito di WordPress per e-mail non valida"
+
+#~ msgid "Incorrect password message"
+#~ msgstr "Messaggio password non corretta"
+
+#~ msgid ""
+#~ "If filled out, this custom login error will be shown instead of WordPress "
+#~ "default error for incorrect password"
+#~ msgstr ""
+#~ "Se compilato, questo errore di accesso personalizzato verrà visualizzato "
+#~ "al posto dell'errore predefinito di WordPress per la password non corretta"
+
+#~ msgid "Empty username message"
+#~ msgstr "Messaggio nome utente vuoto"
+
+#~ msgid ""
+#~ "If filled out, this custom login error will be shown instead of WordPress "
+#~ "default error for empty username"
+#~ msgstr ""
+#~ "Se compilato, questo errore di accesso personalizzato verrà visualizzato "
+#~ "al posto dell'errore predefinito di WordPress per il nome utente vuoto"
+
+#~ msgid "Empty password message"
+#~ msgstr "Messaggio password vuota"
+
+#~ msgid ""
+#~ "If filled out, this custom login error will be shown instead of WordPress "
+#~ "default error for empty password"
+#~ msgstr ""
+#~ "Se compilato, questo errore di accesso personalizzato verrà visualizzato "
+#~ "al posto dell'errore predefinito di WordPress per la password vuota"
+
+#~ msgid "Notification"
+#~ msgstr "Notifiche"
+
+#~ msgid "Get an email notification when the below events will occur"
+#~ msgstr ""
+#~ "Ricevi una notifica via email quando si verificheranno i seguenti eventi"
+
+#~ msgid "Notify success login"
+#~ msgstr "Notifica l'autenticazione riuscita"
+
+#~ msgid "If switched on, every successful login wil be notified"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, ogni autenticazione riuscita sarà notificata"
+
+#~ msgid "Notify change role"
+#~ msgstr "Notifica il cambio di ruolo"
+
+#~ msgid "If switched on, you will be notified when a user role is changed"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, si riceverà una notifica quando verrà modificato "
+#~ "un ruolo utente"
+
+#~ msgid "Notify delete user"
+#~ msgstr "Notifica la cancellazione di un utente"
+
+#~ msgid "If switched on, you will be notified when a user will be deleted"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, si riceverà una notifica quando un utente verrà "
+#~ "eliminato"
+
+#~ msgid "Notify locked down user"
+#~ msgstr "Notifica utente bloccato"
+
+#~ msgid ""
+#~ "If switched on, you will be notified when a user will be locked down for "
+#~ "having exceeded failed login attempts conceded in Login Attempts Monitor "
+#~ "section"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, si riceverà una notifica quando un utente verrà "
+#~ "bloccato per aver superato i tentativi di accesso non riusciti concessi "
+#~ "nella sezione Monitoraggio Tentativi di Accesso"
+
+#~ msgid "Notify baned user"
+#~ msgstr "Notifica utente bannato"
+
+#~ msgid ""
+#~ "If switched on, you will be notified when a user will be baned for having "
+#~ "exceeded failed login attempts conceded in Login Attempts Monitor section"
+#~ msgstr ""
+#~ "Se l'opzione è attivata, si riceverà una notifica quando un utente verrà "
+#~ "bannato per aver superato i tentativi di accesso non riusciti concessi "
+#~ "nella sezione Monitoraggio Tentativi di Accesso"
+
+#~ msgid "Notification address"
+#~ msgstr "Indirizzo per le notifiche"
+
+#~ msgid "Define email address where notifications will be sent"
+#~ msgstr ""
+#~ "Definisci l'indirizzo di posta elettronica a cui verranno inviate le "
+#~ "notifiche"
+
+#~ msgid ""
+#~ "Splash page image does not contain a valid media gallery element. Please "
+#~ "check it out"
+#~ msgstr ""
+#~ "L'immagine della Splash page non contiene un elemento della raccolta "
+#~ "multimediale valido. Si prega di controllare"
+
+#~ msgid ""
+#~ "Splash page image does not contain a valid image. Please check it out"
+#~ msgstr ""
+#~ "L'immagine della Splash page non contiene un'immagine valida. Si prega di "
+#~ "controllare"
+
+#~ msgid "Thumbnails rebuild in progress"
+#~ msgstr "Ricostruzione delle miniature in corso"
+
+#~ msgid "Thumbnails rebuild completed"
+#~ msgstr "Ricostruzione delle miniature completata"
+
+#~ msgid "Settings Saved"
+#~ msgstr "Impostazioni Salvate"
+
+#~ msgid ""
+#~ "Unique social image does not contain a valid media gallery element. "
+#~ "Please check it out"
+#~ msgstr ""
+#~ "L'immagine social univoca non contiene un elemento della raccolta "
+#~ "multimediale valido. Si prega di controllare"
+
+#~ msgid ""
+#~ "Unique Social Image does not contain a valid image. Please check it out"
+#~ msgstr ""
+#~ "L'immagine social univoca non contiene un'immagine valida. Si prega di "
+#~ "controllare"
+
+#~ msgid ""
+#~ "You have exceeded the login attempts conceded, please try again later"
+#~ msgstr "Hai superato i tentativi di accesso concessi, riprova più tardi"
+
+#~ msgid "You are permanently banned from trying again to login"
+#~ msgstr "Ti è permanentemente vietato provare di nuovo a effettuare il login"
+
+#~ msgid "PRO"
+#~ msgstr "PRO"
+
+#~ msgid "Username or Email"
+#~ msgstr "Nome utente o email"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "Login"
+#~ msgstr "Autenticazione"
+
+#~ msgid "User banned from"
+#~ msgstr "Utente bloccato su"
+
+#~ msgid ""
+#~ "A user was definitively banned for having exceeded lock downs conceeded"
+#~ msgstr ""
+#~ "Un utente è stato definitivamente bloccato per aver superato i tentativi "
+#~ "di accesso"
+
+#~ msgid "Last username used was"
+#~ msgstr "L'ultimo nome utente utilizzato è stato"
+
+#~ msgid "Anonymized user IP is"
+#~ msgstr "L'IP utente anonimizzato è"
+
+#~ msgid "User locked down from"
+#~ msgstr "Utente bloccato su"
+
+#~ msgid "A user was locked out for having exceeded login attempts conceeded"
+#~ msgstr "Un utente è stato bloccato per aver superato i tentativi di accesso"
+
+#~ msgid "Activated"
+#~ msgstr "Attivato"
+
+#~ msgid "Author Archive Page"
+#~ msgstr "Pagina Archivio Autore"
+
+#~ msgid "including yours"
+#~ msgstr "compreso il tuo"
+
+#~ msgid ""
+#~ "Prevent bothering and repeated notices to be displayed into dashboard and "
+#~ "show only important notices"
+#~ msgstr ""
+#~ "Impesci che gli avvisi fastidiosi e ripetuti vengano visualizzati nella "
+#~ "dashboard e mostra solo gli avvisi importanti"
+
+#~ msgid "Please provide a valid token"
+#~ msgstr "Per favore fornisci un token valido"
+
+#~ msgid "License section token"
+#~ msgstr "Token della sezione Licenza"
+
+#~ msgid ""
+#~ "Do not let hackers to only guess your password to get complete access to "
+#~ "your site"
+#~ msgstr ""
+#~ "Non lasciare la possibilità agli hacker di indovinare solo la tua "
+#~ "password per ottenere l'accesso completo al tuo sito"
+
+#~ msgid ""
+#~ "If filled out, this name will be used as sender name of all the emails "
+#~ "that will be sent by this website, overriding other plugin settings"
+#~ msgstr ""
+#~ "Se compilato, questo nome verrà utilizzato come nome del mittente di "
+#~ "tutte le e-mail che verranno inviate da questo sito web, sovrascrivendo "
+#~ "diverse impostazioni definite da altri plugin"
+
+#~ msgid ""
+#~ "Prevent this website mail messages to be directed into spam or junk mail, "
+#~ "sending them through your SMTP"
+#~ msgstr ""
+#~ "Impedire che i messaggi di posta elettronica di questo sito Web possano "
+#~ "finire nello spam o nella posta indesiderata, inviandoli tramite SMTP"
+
+#~ msgid "Smtp test in progress"
+#~ msgstr "Test SMTP in corso"
+
+#, fuzzy
+#~ msgid "Smtp test completed successfully"
+#~ msgstr "Test Smtp completato correttamente"
+
+#, fuzzy
+#~ msgid "Smtp test failed, check settings"
+#~ msgstr "Test Smtp non riuscito, controllare le impostazioni"
+
+#~ msgid "Custom preview in SERP through the description tag"
+#~ msgstr "Anteprima personalizzata nella SERP attraverso il tag description"
+
+#~ msgid "All fields are required"
+#~ msgstr "Tutti i campi sono obbligatori"
+
+#~ msgid "plugin deactivated"
+#~ msgstr "plugin disattivato"
+
+#~ msgid "Login attempt without clicking button to login to"
+#~ msgstr "Tentativo di accesso senza pressione del  pulsante di login a"
+
+#~ msgid ""
+#~ "A user trying to login without clicking the login button was locked out, "
+#~ "blacklisted and redirected to homepage, while he was trying to login with "
+#~ "username"
+#~ msgstr ""
+#~ "Un utente che sta tentando di accedere senza premere il bottone di login "
+#~ "è stato bloccato, inserito nella blacklist e reindirizzato alla homepage, "
+#~ "mentre tentava di autenticarsi con username"
+
+#~ msgid "City"
+#~ msgstr "Città"
+
+#~ msgid "Country"
+#~ msgstr "Nazione"
+
+#~ msgid "failed"
+#~ msgstr "ha fallito"
+
+#~ msgid "and so it is now banned for the next"
+#~ msgstr "e quindi viene bloccato per i prossimi"
+
+#~ msgid "minutes"
+#~ msgstr "minuti"
+
+#~ msgid "Only authenticated users can access the REST API."
+#~ msgstr "Solo gli utenti autenticati possono accedere alle REST API."
+
+#~ msgid "administrator"
+#~ msgstr "amministratore"
+
+#~ msgid "editor"
+#~ msgstr "editore"
+
+#~ msgid "author"
+#~ msgstr "autore"
+
+#~ msgid "contributor"
+#~ msgstr "contributore"
+
+#~ msgid "subscriber"
+#~ msgstr "sottoscrittore"
+
+#~ msgid "user"
+#~ msgstr "utente"
+
+#~ msgid "and role of"
+#~ msgstr "e ruolo di"
+
+#~ msgid "not located"
+#~ msgstr "non localizzato"
+
+#~ msgid "WP Login Tool Options"
+#~ msgstr "Impostazioni di WP Login Tool"
+
+#~ msgid ""
+#~ "Your country has been automatically excluded from the list of countries "
+#~ "below, otherwise you will not login anymore"
+#~ msgstr ""
+#~ "La tua nazione è stata automaticamente esclusa dalla lista di nazioni qui "
+#~ "sotto, altrimenti non potresti più autenticarti"
+
+#~ msgid "Please, provide a valid email address in order to turn notifications"
+#~ msgstr ""
+#~ "Per favore, fornisci un indirizzo email valido al fine di attivare le "
+#~ "notifiche"
+
+#~ msgid ""
+#~ "A problem occurred with the IP geolocation service, country protection "
+#~ "function cannot be enabled"
+#~ msgstr ""
+#~ "A causa di un problema con il servizio di geolocalizzazione IP, la "
+#~ "protezione per nazione non più essere attivata"
+
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgid ""
+#~ "all the seleceted notifications below will ben sent to this email addresss"
+#~ msgstr ""
+#~ "tutte le notifiche selezionate qui sotto saranno inviate a questo "
+#~ "indirizzo email"
+
+#~ msgid "Notify every successful login by"
+#~ msgstr "Invia una notifica ad ogni autenticazione di"
+
+#~ msgid "everyone, included custom roles"
+#~ msgstr "chiunque, compresi ruoli custom"
+
+#~ msgid "contributors, authors, editors or admins"
+#~ msgstr "contributori, autori, editori o amministratori"
+
+#~ msgid "authors, editors or admins"
+#~ msgstr "autori, editori o amministratori"
+
+#~ msgid "editors or admins"
+#~ msgstr "editori o amministratori"
+
+#~ msgid "admins only"
+#~ msgstr "amministratori solamente"
+
+#~ msgid ""
+#~ "if checked, every successful login for the selected roles will be notified"
+#~ msgstr ""
+#~ "se selezionato, agni autenticazione riuscita per i ruoli indicati sarà "
+#~ "notificata"
+
+#~ msgid "When a user fails"
+#~ msgstr "Quando un utente fallisce"
+
+#~ msgid ""
+#~ "login attempts, show him a 404 page instead of the login page for the next"
+#~ msgstr ""
+#~ "tentativi di autenticazione, mostragli una pagina 404 anziché la pagina "
+#~ "di login per i successivi"
+
+#~ msgid ""
+#~ "if checked, a 404 page is displayed, for the selected lapse of time, to "
+#~ "visitors that exceeded the granted login attempts"
+#~ msgstr ""
+#~ "se selezionato, viene mostrata una pagina 404, per il periodo di tempo "
+#~ "indicato, ai visitatori che eccedono i tentativi di login concessi"
+
+#~ msgid "Notify me when the above event happens"
+#~ msgstr "Inviami una notifica quando l'evento qui sopra si verifica"
+
+#~ msgid ""
+#~ "When a user attempts to login without clicking login button, lock the "
+#~ "login process, add the IP to the blacklist and, on every future login "
+#~ "attempt, display a 404 page instead of the login page"
+#~ msgstr ""
+#~ "Quando un utente tenta di autenticarsi senza premere il bottone di login, "
+#~ "blocca la procedura di autenticazione, aggiungi l'IP alla blacklist e, ad "
+#~ "ogni successivo tentativo di accesso, visualizza una pagina 404 anziché "
+#~ "la pagina di accesso"
+
+#~ msgid ""
+#~ "if checked, it prevents authentication to users that are trying to login "
+#~ "in an alternative way rather than pressing the login button, it adds them "
+#~ "to a blacklist and, while they are blacklisted, it shows them a 404 page "
+#~ "instead of the login form"
+#~ msgstr ""
+#~ "se selezionato, impedisce l'autenticazione agli utenti che stanno "
+#~ "cercando di effettuare l'accesso con una modalità diversa rispetto alla "
+#~ "pressione del pulsante di login, li aggiunge ad una blacklist e, finché "
+#~ "sono presenti nella blacklist, mostra una pagina 404 invece del form di "
+#~ "autenticazione"
+
+#~ msgid "if checked, XMLRPC and REST API are disabled"
+#~ msgstr "se selezionato, XMLRPC e REST API vengono disabilitati"
+
+#~ msgid "Prevent visitors from these countries to complete the login attempt"
+#~ msgstr ""
+#~ "Impedisci di completare il tentativo di autenticazione ai visitatori "
+#~ "provenienti da queste nazioni"
+
+#~ msgid "select all"
+#~ msgstr "seleziona tutto"
+
+#~ msgid "unselect all"
+#~ msgstr "deseleziona tutto"
+
+#~ msgid ""
+#~ "when the login button is clicked, a 404 page is displayed to every "
+#~ "visitor from the countries selected below"
+#~ msgstr ""
+#~ "quando viene premuto il pulsante di login, una pagina 404 viene "
+#~ "visualizzata a tutti i visitatori provenienti dalle nazioni selezionate "
+#~ "sotto"
+
+#~ msgid "WP Login Tool Statistics"
+#~ msgstr "Statistiche di WP Login Tool"
+
+#~ msgid ""
+#~ "Last ten users blacklisted for having attempted to login without having "
+#~ "clicked the login button"
+#~ msgstr ""
+#~ "Ultimi dieci utenti inseriti nella blacklist per avere tentato di "
+#~ "autenticarsi senza aver premuto il bottone di login"
+
+#~ msgid "DATE"
+#~ msgstr "DATA"
+
+#~ msgid "COUNTRY"
+#~ msgstr "NAZIONE"
+
+#~ msgid "CITY"
+#~ msgstr "CITTÀ"
+
+#~ msgid "ACTION"
+#~ msgstr "AZIONE"
+
+#~ msgid "USERNAME"
+#~ msgstr "NOME UTENTE"
+
+#~ msgid "ATTEMPTS"
+#~ msgstr "TENTATIVI"
+
+#~ msgid "Last ten users coming from locked out countries that tried to login"
+#~ msgstr ""
+#~ "Ultimi dieci utenti provenienti da nazioni bloccate che abbiano provato "
+#~ "ad autenticarsi"
+
+#~ msgid "USER"
+#~ msgstr "NOME UTENTE"
+
+#~ msgid "The ten most locked countries"
+#~ msgstr "Le dieci nazioni più bloccate"
+
+#~ msgid "LOCKS"
+#~ msgstr "BLOCCHI"
+
+#~ msgid "Change your permalinks sctructure into \"pretty permalinks\""
+#~ msgstr "Cambia la struttura dei permalinks in \"pretty permalinks\""
+
+#~ msgid "in order to use this plugin"
+#~ msgstr "per poter usare questo plugin"
+
+#~ msgid "everyone"
+#~ msgstr "chiunque"
+
+#~ msgid "PAGE"
+#~ msgstr "PAGINA"
+
+#~ msgid "Last ten blacklisted users"
+#~ msgstr "Ultimi dieci utenti inseriti nella blacklist"
+
+#~ msgid "Last ten country locked users"
+#~ msgstr "Ultime dieci nazioni di provenienza di utenti bloccati"
+
+#~ msgid "Top ten countries locked"
+#~ msgstr "Dieci nazioni più bloccate"
+
+#~ msgid ""
+#~ "when the login button is clicked, a 404 page is displayed to every "
+#~ "visitor from the countries selected below."
+#~ msgstr ""
+#~ "quando viene premuto il pulsante di login, una pagina 404 viene "
+#~ "visualizzata a tutti i visitatori provenienti dalle nazioni selezionate "
+#~ "sotto"
+
+#~ msgid ""
+#~ "when the login form is submitted, a 404 page is displayed to every "
+#~ "visitor from the countries selected below."
+#~ msgstr "quando il form di "
+
+#~ msgid "Disallow visitors from these countries to login"
+#~ msgstr ""
+#~ "Impedisci ai visitatori provenienti da queste nazioni di autenticarsi"
+
+#~ msgid ""
+#~ "instead of the login page, a 404 page is displayed to every visitor from "
+#~ "the countries selected below "
+#~ msgstr ""
+#~ "al posto della pagina di autenticazione, una pagina 404 viene mostrata ad "
+#~ "ogni visitatore proveniente dalle nazioni sotto indicate"
+
+#~ msgid ""
+#~ "A supposed not-human user was locked out, blacklisted and redirected to "
+#~ "homepage, since he was trying to login with username"
+#~ msgstr ""
+#~ "Un utente, probabilmente non umano, è stato bloccato, inserito nella "
+#~ "blacklist e reindirizzato alla homepage, dato che stava tentando di "
+#~ "accedere con username"
+
+#~ msgid "without clicking the login button"
+#~ msgstr "senza avere premuto il pulsante di login"
+
+#~ msgid ""
+#~ "Notify if a supposed not-human user attempts to login, lock the login "
+#~ "process, add the IP to the blacklist and, on every future login attempt, "
+#~ "display a 404 page instead of the login page "
+#~ msgstr ""
+#~ "Invia una notifica se un utente probabilmente non umano tenta di "
+#~ "autenticarsi, blocca la procedura di autenticazione, aggiunge l'IP alla "
+#~ "blacklist e, ad ogni successivo tentativo di accesso, visualizza una "
+#~ "pagina 404 anziché la pagina di accesso"
+
+#~ msgid ""
+#~ "The API key you entered is not valid, so you can't exclude visitors by "
+#~ "country. Please check API key or obtain a new one from here"
+#~ msgstr ""
+#~ "La chiave API inserita non è valida, quindi non puoi escludere i "
+#~ "visitatori per nazione. Per favore, controlla la chiave API oppure "
+#~ "ottienine una nuova da qui"
+
+#~ msgid ""
+#~ "In order to use this feature, you must enter a free API key that you can "
+#~ "easily obtain from here"
+#~ msgstr ""
+#~ "Per poter utilizzare questa funzione, devi inserire una chiave API "
+#~ "gratuita che puoi facilmente ottenere da qui"
+
+#~ msgid "Display a 404 page after"
+#~ msgstr "Mostra una pagina 404 dopo"
+
+#~ msgid "failed login attempts, prevent user from retrying for"
+#~ msgstr ""
+#~ "tentativi di autenticazione falliti, impedisci all'utente di ritentare "
+#~ "l'accesso per"
+
+#~ msgid "minutes and notify it"
+#~ msgstr "minuti e invia una notifica"
+
+#~ msgid ""
+#~ "Enable protection from supposed not-human login attempts, blacklist and "
+#~ "notify"
+#~ msgstr ""
+#~ "Attiva la protezione da tentativi di accesso da utenti presumibilmente "
+#~ "non umani, aggiungi alla blacklist e notifica"
+
+#~ msgid ""
+#~ "if checked, it prevents authentication to users that are trying to login "
+#~ "in an alternative way rather than pressing the login button, it redirects "
+#~ "them to the homepage and it registers the user IP into a blacklist table"
+#~ msgstr ""
+#~ "se selezionato, impedisce l'autenticazione a utenti che stanno tentando "
+#~ "di autenticarsi con metodi alternativi, rispetto alla pressione del "
+#~ "bottone di login, li reindirizza alla homepage e registra l'IP "
+#~ "dell'utente nella blacklist"
+
+#~ msgid ""
+#~ "Please, provide a valid email address in order to turn on successful "
+#~ "login notifications"
+#~ msgstr ""
+#~ "Per favore, inserisci un indirizzo email valido per attivare le notifiche "
+#~ "di accesso riuscito"
+
+#~ msgid ""
+#~ "Please, provide a valid email address in order to turn on failed login "
+#~ "attempt notifications"
+#~ msgstr ""
+#~ "Per favore, inserisci un indirizzo email valido per attivare le notifiche "
+#~ "di errore di accesso"
+
+#~ msgid "Notify successful login to this email address"
+#~ msgstr "Invia una notifica di accesso riuscito a questo indirizzo email"
+
+#~ msgid ""
+#~ "if checked, every successful login will be notified to the mail address "
+#~ "recipient"
+#~ msgstr ""
+#~ "se selezionato, ogni accesso riuscito sarà notificato all'indirizzo email "
+#~ "del destinatario "
+
+#~ msgid "minutes and notify to this email address"
+#~ msgstr "minuti e invia una notifica a questo indirizzo email"
+
+#~ msgid ""
+#~ "if checked, every failed login attempt will be notified to the mail "
+#~ "address recipient"
+#~ msgstr ""
+#~ "se selezionato, ogni accesso fallito sarà notificato all'indirizzo email "
+#~ "del destinatario "
+
+#~ msgid ""
+#~ "a 404 page is shown to visitors from countries selected below instead of "
+#~ "the login page (both the default WordPress login page and the custom "
+#~ "login page above become unreachable)"
+#~ msgstr ""
+#~ "una pagina 404 viene mostrata ai visitatori provenienti dalle nazioni "
+#~ "selezionate qui sotto al posto della pagina di accesso (sia la normale "
+#~ "pagina di accesso di WordPress che la pagina di accesso alternativa qui "
+#~ "sopra diventano irraggiungibili)"
+
+#~ msgid ""
+#~ "The choosen login url is not admitted, since it is reserved to WordPress"
+#~ msgstr ""
+#~ "La url della pagina di accesso indicata non è ammessa, perché è riservata "
+#~ "a WordPress"
+
+#~ msgid "Hide WordPress default login page and move it to"
+#~ msgstr ""
+#~ "Nascondi la normale pagina di autenticazione di WordPress e spostala qui"
+
+#~ msgid ""
+#~ "if checked, WordPress login page is displayed only at the custom url above"
+#~ msgstr ""
+#~ "se selezionato, la pagina di accesso di WordPress è visibile unicamente "
+#~ "alla url personalizzata indicata sopra"
+
+#~ msgid "Failed Login on"
+#~ msgstr "Autenticazione fallita su"
+
+#~ msgid ""
+#~ "when checked, WordPress default login page returns a 404 page and is only "
+#~ "reachable at the custom url above"
+#~ msgstr ""
+#~ "se selezionato, la pagina di accesso di WordPress è visibile unicamente"
+
+#~ msgid ""
+#~ "when checked, WP Login Tool plugin disables XMLRPC and REST API to reduce "
+#~ "chanche to log in to brute-force attackers "
+#~ msgstr "se selezionato, WP Login Tool plugin disattiva XMLRPC e REST API"
+
+#~ msgid "If you like this plugin, please"
+#~ msgstr "Se ti piace questo plugin, per cortesia"
+
+#~ msgid "rate it with five stars"
+#~ msgstr "votalo con cinque stelle"
+
+#~ msgid "Also, in order to help me to keep it free, please consider to"
+#~ msgstr "Inoltre, per consentirmi di mantenerlo gratuito, per favore"
+
+#~ msgid ""
+#~ "Be very careful: without an alternative login page, visitors from the "
+#~ "countries selcted below will not login anymore"
+#~ msgstr ""
+#~ "Fai molta attenzione: senza una pagina di autenticazione alternativa, i "
+#~ "visitatori provenienti dalle nazioni selezionate sotto non avranno più "
+#~ "accesso"
+
+#~ msgid ""
+#~ "if checked, a 404 page is shown instead of the WordPress default login "
+#~ "page and a login form is placed into a safe login page at the custom url "
+#~ "above"
+#~ msgstr ""
+#~ "se selezionato, una pagina 404 viene visualizzata al posto della normale "
+#~ "pagina di accesso di WordPress e un modulo di autenticazione viene "
+#~ "posizionato in una pagina di autenticazione di sicurezza all'indirizzo "
+#~ "qui sopra"
+
+#~ msgid "Notify failed login attempt to this email address"
+#~ msgstr "Invia la notifica di accesso negato a questo indirizzo email"
+
+#~ msgid ""
+#~ "The choosen login url is not admitted, since it is a WordPress reserved "
+#~ "one"
+#~ msgstr ""
+#~ "La url della pagina di accesso indicata non è ammessa, perché è una di "
+#~ "quelle riservate a WordPress"
+
+#~ msgid ""
+#~ "Please, provide a valid email address in order to turn on successful "
+#~ "successful login notifications"
+#~ msgstr ""
+#~ "Per favore, inserisci un indirizzo email valido per attivare le notifiche "
+#~ "di accesso riuscito"
+
+#~ msgid "Hide login pages and move that to"
+#~ msgstr "Nascondi la pagina di autenticazione e spostala qui"
+
+#~ msgid "Disallow users from these countries to login"
+#~ msgstr "Impedisci agli utenti provenienti da queste nazioni di autenticarsi"
+
+#~ msgid ""
+#~ "a 404 page is shown to users from countries selected below instead of the "
+#~ "login page (both the default WordPress login page and the custom login "
+#~ "page above become unreachable)"
+#~ msgstr ""
+#~ "una pagina 404 viene mostrata ai visitatori provenienti dalle nazioni "
+#~ "selezionate qui sotto al posto della pagina di accesso (sia la normale "
+#~ "pagina di accesso di WordPress che la pagina di accesso alternativa qui "
+#~ "sopra diventano irraggiungibili)"
+
+#~ msgid "Change your permalinks sctructure"
+#~ msgstr "Cambia la struttura del permalinks"
+
+#~ msgid "Hide login page and move it to"
+#~ msgstr "Nascondi la pagina di login e visualizzala qui"
+
+#~ msgid ""
+#~ "when checked, WP Login Tool plugin hides WordPress default login page and "
+#~ "moves it to a custom alternative url"
+#~ msgstr ""
+#~ "se attivato, WP Login Tool nasconde la pagina di accesso standard di "
+#~ "WordPress e la visualizza ad una url alternativa e personalizzata"
+
+#~ msgid "Hide your custom login page to visitors from these countries"
+#~ msgstr ""
+#~ "Nascondi la tua pagina di accesso personalizzata ai visitatori "
+#~ "provenienti da queste nazioni"
+
+#~ msgid ""
+#~ "WP Login Tool shows a 404 page instead of your custom login page to "
+#~ "visitors from the countries selcted below"
+#~ msgstr ""
+#~ "WP Login Tool mostra una pagina 404 al posto della tua pagina di accesso "
+#~ "personalizzata ai visitatori provenienti dalle nazioni qui sotto "
+#~ "selezionate"
+
+#~ msgid "Register"
+#~ msgstr "Registrazione"
+
+#~ msgid "My Login Options"
+#~ msgstr "Opzioni di My Login"
+
+#~ msgid "Every login attempt is now redirected to"
+#~ msgstr "Qualunque tentativo di accesso è ora reindirizzato a"
+
+#~ msgid "a custom login page"
+#~ msgstr "una pagina personalizzata"
+
+#~ msgid ""
+#~ "Keep this in mind when you decide to use any redirect/maintenance "
+#~ "plugins, since some functions provided by \"My Login\" could conflict "
+#~ "with similar functions offered by similar plugins even so seriously that "
+#~ "you would not be able to access to WordPress any more! So, from now on, "
+#~ "if you need to put your site in \"maintenance mode\" use only the"
+#~ msgstr ""
+#~ "Tienilo in mente quando decidi di usare qualunque plugin di redirect o di "
+#~ "manutenzione, perché alcune funzioni di \"My Login\" possono entrare in "
+#~ "conflitto con funzioni similari di altri plugins, a tal punto che "
+#~ "potrebbe non essere più possibile accedere a WordPress! Quindi, d'ora in "
+#~ "poi, se hai bisogno di mettere il tuo sito in modalità di manutenzione, "
+#~ "usa unicamente la"
+
+#~ msgid "Offline Mode"
+#~ msgstr "Modalità Offline"
+
+#~ msgid "function provided by \"My Login"
+#~ msgstr "inclusa in \"My Login\""
+
+#~ msgid "General Settings"
+#~ msgstr "Opzioni Generali"
+
+#~ msgid "General Settings Options"
+#~ msgstr "Settaggio Opzioni Generali"
+
+#~ msgid "Offline Mode Options"
+#~ msgstr "Opzioni Modalità Offline"
+
+#~ msgid "Description of the principal function of \"My Login\" plugin"
+#~ msgstr "Descrizione delle principali funzioni del plugin \"My Login\""
+
+#~ msgid "Now on your website you have these new pages"
+#~ msgstr "Ora sul tuo sito web sono presenti queste nuove pagine"
+
+#~ msgid "where users can login"
+#~ msgstr "dove gli utenti possono autenticarsi"
+
+#~ msgid "where users can register while registration is allowed"
+#~ msgstr "dove gli utenti possono registrarsi se la registrazione è permessa"
+
+#~ msgid "where users can manage their own profile"
+#~ msgstr "dove gli utenti possono gestire i loro profili"
+
+#~ msgid ""
+#~ "Chose here \"My Login\" plugin General Settings; if you feel unsure, "
+#~ "leave the options unchanged"
+#~ msgstr ""
+#~ "Modifica le Opzioni Generali di \"My Login\"; se non sei sicuro, lasciale "
+#~ "invariate"
+
+#~ msgid "Display WordPress \"Admin Bar\" only to administrators"
+#~ msgstr "Mostra la \"Admin Bar\" di WordPress solo agli amministratori"
+
+#~ msgid ""
+#~ "if checked, hides admin bar to every logged user, except for "
+#~ "administrators"
+#~ msgstr ""
+#~ "se selezionato, nasconde la admin bar ad ogni utente autenticato, ad "
+#~ "eccezione degli amministratori"
+
+#~ msgid "Allow access to WordPress \"Dashboard\" only to administrators"
+#~ msgstr ""
+#~ "Permette l'accesso alla \"Bacheca\" di WordPress solo agli amministratori"
+
+#~ msgid ""
+#~ "if checked, redirects every logged user who requests the \"wp-admin\" "
+#~ "page to a"
+#~ msgstr ""
+#~ "se selezionato, ogni utente autenticato che tenti di accedere alla pagina "
+#~ "\"wp-admin\" viene indirizzato a una"
+
+#~ msgid "custom dashboard"
+#~ msgstr "bacheca personalizzata"
+
+#~ msgid "except for administrators"
+#~ msgstr "ad eccezione degli amministratori"
+
+#~ msgid "Use a unique custom \"Login\" page"
+#~ msgstr "Utilizza un'unica pagina di \"Login\" personalizzata"
+
+#~ msgid ""
+#~ "if checked, prevents not logged users from using \"wp-login.php\" page "
+#~ "and redirects them to a"
+#~ msgstr ""
+#~ "se selezionato, impedisce agli utenti non autenticati di accedere alla "
+#~ "pagina \"wp-login.php\" e li indirizza verso una"
+
+#~ msgid "Use a unique custom \"Registration\" page"
+#~ msgstr "Utilizza un'unica pagina di \"Registrazione\" personalizzata"
+
+#~ msgid "you can't change this option, because"
+#~ msgstr "non puoi modificare questa opzione, perchè"
+
+#~ msgid "don't allow new registrations"
+#~ msgstr "non consentono nuove registrazioni"
+
+#~ msgid ""
+#~ "if checked, prevents not logged users from using \"wp-login.php?"
+#~ "action=register\" page and redirects them to a"
+#~ msgstr ""
+#~ "se selezionato, impedisce agli utenti non autenticati di accedere alla "
+#~ "pagina \"wp-login.php?action=register\" e li indirizza verso una"
+
+#~ msgid "custom register page"
+#~ msgstr "pagina di registrazione personalizzata"
+
+#~ msgid "select where to redirect users after a successful login"
+#~ msgstr ""
+#~ "seleziona dove indirizzare gli utenti dopo un'autenticazione riuscita"
+
+#~ msgid ""
+#~ "\"Offline Mode\" is a maintenance mode function wich doesn't interfere "
+#~ "with \"My Login\" plugin; if activated, every visitor will be redirected "
+#~ "to a courtesy page while the entire website will be hidden"
+#~ msgstr ""
+#~ "\"Modalità Offline\" è una funzione di manutenzione che non interferisce "
+#~ "con il plugin \"My Login\"; se attivata, nasconde il contenuto del sito "
+#~ "ed indirizza ogni visitatore ad una pagina di cortesia"
+
+#~ msgid "Activate Oflline Mode"
+#~ msgstr "Attiva la Modalità Offline"
+
+#~ msgid ""
+#~ "if checked, every page of this website redirect any visitor to a courtesy "
+#~ "page, except for logged users"
+#~ msgstr ""
+#~ "se selezionato, ogni pagina di questo sito indirizza ogni visitatore ad "
+#~ "una pagina di cortesia, ad eccezione degli utenti autenticati"
+
+#~ msgid "Background Image"
+#~ msgstr "Immagine di sfondo"
+
+#~ msgid ""
+#~ "you can't use this setting, because \"Offline Mode\" is currently "
+#~ "deactivated"
+#~ msgstr ""
+#~ "non puoi utilizzare questa opzione, perché in questo momento la "
+#~ "\"Modalità Offline\" non è attiva"
+
+#~ msgid "if set, the courtesy page shows this image as full size background"
+#~ msgstr ""
+#~ "se impostata, la pagina di cortesia mostra questa immagina come sfondo a "
+#~ "tutta pagina"
+
+#~ msgid ""
+#~ "The selected nickname belongs to another user, please choose another one"
+#~ msgstr ""
+#~ "Il soprannome indicato appartiene ad un altro utente, per favore scegline "
+#~ "un altro"
+
+#~ msgid "No user found"
+#~ msgstr "Nessun utente trovato"
+
+#~ msgid "User"
+#~ msgstr "Utente"
+
+#~ msgid "Change profile photo"
+#~ msgstr "Cambia immagine del profilo"
+
+#~ msgid "save profile to update photo"
+#~ msgstr "salva il profilo per aggiornare la tua immagine"
+
+#~ msgid "Upload profile photo"
+#~ msgstr "Carica l'immagine del profilo"
+
+#~ msgid "Public info, shown to all users"
+#~ msgstr "Informazioni pubbliche, visibili a tutti gli utenti"
+
+#~ msgid "Nickname"
+#~ msgstr "Soprannome"
+
+#~ msgid "Date of birth"
+#~ msgstr "Data di nascita"
+
+#~ msgid "Gender"
+#~ msgstr "Sesso"
+
+#~ msgid "Male"
+#~ msgstr "Uomo"
+
+#~ msgid "Female"
+#~ msgstr "Donna"
+
+#~ msgid "Registration date"
+#~ msgstr "Data di registrazione"
+
+#~ msgid "Private info, not publicly shown"
+#~ msgstr "Informazioni private, non visibili ad altri utenti"
+
+#~ msgid "You can login through"
+#~ msgstr "Puoi autenticarti tramite"
+
+#~ msgid "Click here"
+#~ msgstr "Clicca qui"
+
+#~ msgid "to view your public profile"
+#~ msgstr "per vedere il tuo profilo pubblico"
+
+#~ msgid "to enter WordPress dasboard"
+#~ msgstr "per accedere alla bacheca di WordPress"
+
+#~ msgid "Current email, not publicly shown"
+#~ msgstr "Attuale email, non visibile ad altri utenti"
+
+#~ msgid "Email"
+#~ msgstr "Indirizzo email"
+
+#~ msgid "Howdy"
+#~ msgstr "Ciao"
+
+#~ msgid "You are already logged in, you don't need to login again"
+#~ msgstr ""
+#~ "Hai già effettuato l'accesso, non è necessario autenticarsi nuovamente"
+
+#~ msgid "Log Out"
+#~ msgstr "Esci"
+
+#~ msgid "Login here, if you are a registered user"
+#~ msgstr "Autenticati qui, se sei un utente registrato"
+
+#~ msgid "Username length must be at least six characters"
+#~ msgstr "La lunghezza dello username deve essere almeno di sei caratteri"
+
+#~ msgid "The entered username is not valid"
+#~ msgstr "Lo username inserito non è valido"
+
+#~ msgid "The entered username already exists"
+#~ msgstr "Lo username inserito esiste già"
+
+#~ msgid "Password length must be at least six characters"
+#~ msgstr "La lunghezza della password deve essere almeno di sei caratteri"
+
+#~ msgid "The entered email is not valid"
+#~ msgstr "L'email inserita non è valido"
+
+#~ msgid "The entered email already exist"
+#~ msgstr "L'email inserita risulta già registrata"
+
+#~ msgid "You are already register, you don't need to register again"
+#~ msgstr "Sei già registrato, non puoi registrarti nuovamente"
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "User registration is currently not allowed"
+#~ msgstr "La registrazione non è al momento consentita"
+
+#~ msgid "Extra profile information"
+#~ msgstr "Informazioni aggiuntive del profilo"
+
+#~ msgid "Company"
+#~ msgstr "Società"
+
+#~ msgid "Job"
+#~ msgstr "Professione"
+
+#~ msgid "Phone"
+#~ msgstr "Telefono"
+
+#~ msgid "Public info, shown to all users:"
+#~ msgstr "Informazioni pubbliche, visibili a tutti gli utenti"
+
+#~ msgid "Private info, not publicly shown:"
+#~ msgstr "Informazioni private, non visualizzate pubblicamente"
+
+#~ msgid "Current email, not publicly shown:"
+#~ msgstr "Attuale email, non visualizzato pubblicamente"
+
+#~ msgid "Recover"
+#~ msgstr "Recupera"
+
+#~ msgid "Here"
+#~ msgstr "Qui"
+
+#~ msgid "you can find your public profile, as it is shown to other users."
+#~ msgstr ""
+#~ "trovi il tuo profilo pubblico, così come viene visualizzato agli altri "
+#~ "utenti"
+
+#~ msgid "Your login name is"
+#~ msgstr "Il tuo nome di autenticazione è"
+
+#~ msgid ""
+#~ "and it is not editable. Here you can complete your profile with the "
+#~ "informations below"
+#~ msgstr ""
+#~ "e non è modificabile. Qui puoi completare il tuo profilo con le "
+#~ "informazioni qui sotto"
+
+#~ msgid "Your "
+#~ msgstr "Il tuo"
+
+#~ msgid " Name"
+#~ msgstr "Nome"
+
+#~ msgid "First name"
+#~ msgstr "Nome"
+
+#~ msgid "Last name"
+#~ msgstr "Cognome"
+
+#~ msgid "profile"
+#~ msgstr "Profilo"
+
+#~ msgid "Rotate your device to login"
+#~ msgstr "Ruota il tuo device per autenticarti"
+
+#~ msgid "Profile"
+#~ msgstr "Profilo"
+
+#~ msgid ""
+#~ "where users can manage their own profile or display some other user "
+#~ "profile description"
+#~ msgstr ""
+#~ "dove gli utenti possono gestire il loro profilo e vedere il profilo di "
+#~ "altri utenti"
+
+#~ msgid "an extra page that you can use in the way you want or not use at all"
+#~ msgstr ""
+#~ "una pagina accessoria che puoi usare nel modo che vuoi, o non usare del "
+#~ "tutto"
+
+#~ msgid ""
+#~ "and it is not editable. Here you can complete your profile with the "
+#~ "informations below."
+#~ msgstr ""
+#~ "e non puoi cambiarlo. Qui sotto puoi completare il tuo profilo con le "
+#~ "informazioni indicate."
+
+#~ msgid "Info"
+#~ msgstr "Informazioni"
+
+#~ msgid ""
+#~ "In order to make \"My Login\" plugin behave as expected you need to "
+#~ "change your default permalink structure"
+#~ msgstr ""
+#~ "Affinché \"My Login\" plugin funzioni correttamente, devi cambiare la "
+#~ "struttura dei tuoi permalink"
+
+#~ msgid "PAY ATTENTION"
+#~ msgstr "ATTENZIONE"
+
+#~ msgid ""
+#~ "In order to make \"My Login\" plugin behave as expected your permalinks "
+#~ "structure have to include \"postname\" into your urls."
+#~ msgstr ""
+#~ "Affinché \"My Login\" plugin funzioni correttamente, la struttura dei "
+#~ "permalinks deve includere il \"postname\" nella URL."
+
+#~ msgid "Changhe permalinks structure through"
+#~ msgstr "Cambia la struttura dei permalinks attraverso"
+
+#~ msgid "permalinks page"
+#~ msgstr "la pagina dei permalinks"
+
+#~ msgid "or push the button below to change it automatically to"
+#~ msgstr ""
+#~ "oppure premi il pulsante qui sotto per modificarla automaticamente in"
+
+#~ msgid "Change Permalinks Structure"
+#~ msgstr "Cambia la struttura dei permalinks"
+
+#~ msgid "You have logged in successfully."
+#~ msgstr "Hai effettuato l'accesso"
+
+#~ msgid "You are logged in already. No need to register again!"
+#~ msgstr ""
+#~ "Hai già effetuato l'accesso, non è necessario registrarsi nuovamente!"
+
+#~ msgid "User registration is currently not allowed."
+#~ msgstr "Attualmente la registrazione non è permessa."
+
+#~ msgid ""
+#~ "if checked, every page of this website redirect any visitor to a blank "
+#~ "login page, except for logged users"
+#~ msgstr ""
+#~ "se selezionato, ogni pagina di questo sito indirizza ogni visitatore ad "
+#~ "una pagina di cortesia, ad eccezione degli utenti autenticati"
+
+#~ msgid ""
+#~ "In order to make \"My Login\" plugin behave as expected your permalinks "
+#~ "structure have to include \"postname\" into your urls.</p>"
+#~ msgstr ""
+#~ "Affinché \"My Login\" plugin funzioni correttamente, la struttura dei "
+#~ "permalinks deve includere \"postname\" (nome dell'articolo o della "
+#~ "pagina) nella URL."

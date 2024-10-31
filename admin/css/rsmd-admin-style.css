@@ -1,0 +1,104 @@
+/*define style for optenhance settings*/
+#rsmd-settings-form h2 {
+    margin: 30px 0 10px 0;
+	font-size: 20px;
+}
+
+#rsmd-settings-form .form-table th {
+	padding: 15px 10px 10px 0;
+}
+
+#rsmd-settings-form .rsmd-section-comment {
+	font-size:14px;
+}
+
+#rsmd-settings-form h2:not(:first-of-type) {
+	padding-top: 40px;
+	border-top: 1px solid #dddddd	
+}
+
+#rsmd-settings-form h2:first-of-type {
+	margin-top:40px;
+}
+
+#rsmd-settings-form select {
+	min-width:200px;
+}
+
+#rsmd-settings-form .submit {
+	border-top: 1px solid #cccccc;
+	margin-top:50px;
+	padding-top: 50px;
+}
+
+#rsmd-settings-form .form-table {
+	width:98%;
+	margin: 35px 2% 0 2%;
+}
+
+#rsmd-settings-form .form-table small {
+	font-size:12px;	
+}
+
+#rsmd-settings-form .form-table label {
+	margin-right: 25px;
+}
+
+.rsmd-list {
+	padding-left:2%;	
+}
+
+h2.rsmd-list-title {
+	margin-top:40px;
+	margin-bottom:20px;
+	font-size: 20px;
+}
+
+/*draw rsmd-switches instead of checkbox*/
+input.rsmd-switch:empty{
+	display:none;
+}
+ 
+input.rsmd-switch:empty ~ label:before, input.rsmd-switch:empty ~ label:after {
+	position: absolute;
+	content: ' ';
+	width: 35px;
+	height: 20px;
+	background-color: #c4c4c4;
+	border-radius: 15px;
+	-webkit-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;
+}
+
+input.rsmd-switch:empty ~ label:after {
+	width: 16px;
+	height: 16px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin:2px 0 0 -2px;
+}
+ 
+input.rsmd-switch:checked ~ label:before{
+	background-color: #007cba;
+}
+ 
+input.rsmd-switch:checked ~ label:after{
+	margin: 2px 0 0 13px;
+}
+
+@media screen and (max-width: 1300px) {
+	
+	#rsmd-settings-form .form-table {
+		width:90%;
+		margin: 25px 5% 0 5%;
+	}
+	
+	#rsmd-settings-form .form-table tr p {
+		padding-top: 5px;
+	}
+	
+	.rsmd-list {
+		padding-left:5%;	
+	}
+	
+}
